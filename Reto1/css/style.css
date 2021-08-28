@@ -1,0 +1,40 @@
+html{
+    background-color: ghostwhite;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Times New Roman';
+}
+
+ul{
+    color: blue;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+ol{
+    color: black;
+}
+
+a{
+    color:black;
+}
+
+footer{
+    text-align: center;
+    font-size: 34px;
+}
+
+article{
+    font-weight: bold;
+}
