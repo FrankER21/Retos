@@ -1,4 +1,6 @@
 .cuerpo{
+    width: 330px;
+    margin: auto;
     text-align: center;
     font-family: calibri;
 }
@@ -17,7 +19,7 @@
     border-color: dimgrey;
 }
 
-.inputs ::placeholder{
+input::placeholder{
     font-weight: bold;
     color: dimgrey;
 }

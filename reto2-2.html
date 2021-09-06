@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reto2-2css.css">
+    <title>Reto 2 - Semana 02</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h1>Sign UP</h1>
+            <label for="firstname">First Name</label>
+            <input type="text">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" max="120">
+            <label for="income">Income</label>
+            <input type="text" name="income" id="income" minlength="6">
+            <label for="moreinfo">More Info</label>
+            <textarea name="moreinfo" id="moreinfo" cols="30" rows="10" minlength="6"></textarea>
+            <label for="gender">Gender</label>
+            <section>
+                <input type="radio" name="genero"
+                id="radiomale" value="M">Male
+                <input type="radio" name="genero" id="radiofemale" value="F">Female
+                <input type="radio" name="genero" id="radiotrans" value="T">Trans
+            </section>
+            <br>
+            <section>
+                <label for="plan">Plan</label>
+                <select name="plan" id="plan">
+                    <option selected disabled value="selectplan">Select Plan</option>
+                    <option value="initial">Initial</option>
+                    <option value="intemedie">Intermedio</option>
+                    <option value="advance">Advance</option>
+                </select>
+                <input type="checkbox">Subscribe to Newsletter
+                <br>
+                <input class="button" type="submit" value="Update">
+            </section>
+        </form>
+    </main>
+</body>
+</html>
