@@ -1,0 +1,33 @@
+.cuerpo{
+    text-align: center;
+    font-family: calibri;
+}
+
+.cuerpo h3{
+    color: dimgrey;
+}
+
+.texto{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: dimgrey;
+}
+
+.inputs ::placeholder{
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.button{
+    height: 35px;
+    margin: 15px;
+    width: 100px;  
+    border-style: none;
+    background-color: #12AD5E;
+    font-weight: bold;
+    color: white;
+}
